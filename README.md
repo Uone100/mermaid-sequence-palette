@@ -2,6 +2,8 @@
 
 Color a participant and one chosen message in a rendered sequence diagram. The helper gives the selected line its own marker so other arrows that share the original arrowhead keep their original color.
 
+**[English quickstart and step-by-step tutorial](TUTORIAL.md)**
+
 ## Install as an Agent Skill
 
 Download the **versioned ZIP** from [Releases](https://github.com/Uone100/mermaid-sequence-palette/releases/latest). Extract its contents into `.agents/skills/mermaid-sequence-palette/` in a Codex project or `.claude/skills/mermaid-sequence-palette/` in a Claude Code project. The installed folder should contain SKILL.md directly. Start a new session and ask for the task described above. You can also run the helper directly.
