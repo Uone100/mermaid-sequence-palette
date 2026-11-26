@@ -4,6 +4,14 @@ Color a participant and one chosen message in a rendered sequence diagram. The h
 
 **[English quickstart and step-by-step tutorial](TUTORIAL.md)**
 
+[Download v0.1.1 ZIP](https://github.com/Uone100/mermaid-sequence-palette/releases/download/v0.1.1/mermaid-sequence-palette-0.1.1.zip)
+
+Install in a Codex project with Node.js 22.20 or newer:
+
+```sh
+npx skills add Uone100/mermaid-sequence-palette -a codex
+```
+
 ## Install as an Agent Skill
 
 Download the **versioned ZIP** from [Releases](https://github.com/Uone100/mermaid-sequence-palette/releases/latest). Extract its contents into `.agents/skills/mermaid-sequence-palette/` in a Codex project or `.claude/skills/mermaid-sequence-palette/` in a Claude Code project. The installed folder should contain SKILL.md directly. Start a new session and ask for the task described above. You can also run the helper directly.
