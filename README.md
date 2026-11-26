@@ -16,6 +16,14 @@ npx skills add Uone100/mermaid-sequence-palette -a codex
 
 Download the **versioned ZIP** from [Releases](https://github.com/Uone100/mermaid-sequence-palette/releases/latest). Extract its contents into `.agents/skills/mermaid-sequence-palette/` in a Codex project or `.claude/skills/mermaid-sequence-palette/` in a Claude Code project. The installed folder should contain SKILL.md directly. Start a new session and ask for the task described above. You can also run the helper directly.
 
+## How to color one arrow in a Mermaid sequence diagram
+
+| Before | After |
+| --- | --- |
+| ![Original Mermaid diagram showing Send draft and Accept changes.](examples/sequence-before.svg) | ![The Editor box is blue and the Accept changes arrow is green.](examples/sequence-after.svg) |
+
+Both diagrams come from [the same Mermaid source](examples/sample.mmd). The [palette rules](examples/colors.json) select the Editor participant and the Accept changes message. The Send draft arrow retains its original line and arrowhead.
+
 ## Worked example
 
 Python 3.9+; an existing sequence SVG with named actor rectangles and paired sibling message labels and lines.
